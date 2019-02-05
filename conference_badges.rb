@@ -19,7 +19,7 @@ def assign_rooms(speakers)
 end
 
 def printer(array)
-  batch_badge_creator
+  batch_badge_creator(array)
   assign_rooms
 end
 # Write your code here.
