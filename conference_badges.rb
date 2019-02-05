@@ -25,7 +25,6 @@ def printer(list)
    new_array << badge_maker(string)
   end
   new_array
-  end
   assign_rooms(speakers)
   list << speakers
   list
