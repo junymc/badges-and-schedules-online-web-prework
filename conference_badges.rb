@@ -13,7 +13,7 @@ end
 def assign_rooms(speaker)
  room = [1, 2, 3, 4, 5, 6, 7]
  room.each do |number|
-  "Hello, #{speaker}! You'll be assigned to room #{number}!"
+  puts "Hello, #{speaker}! You'll be assigned to room #{number}!"
  end
 end
 
