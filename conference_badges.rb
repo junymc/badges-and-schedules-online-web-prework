@@ -19,14 +19,8 @@ def assign_rooms(speakers)
 end
 
 def printer(list)
-  batch_badge_creator(array)
-  new_array = []
-  array.each do |string|
-   new_array << badge_maker(string)
-  end
-  new_array
-  assign_rooms(speakers)
-  list << speakers
+  list << batch_badge_creator(array)
+  List << assign_rooms(speakers)
   list
 end
 # Write your code here.
