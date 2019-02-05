@@ -20,8 +20,9 @@ def assign_rooms(speakers)
 end
 
 def printer(list)
- batch_badge_creator(list)
- binding.pry
+ batch_badge_creator(list).each do |strings|
+   puts strings
+ end
  assign_rooms(list)
 end
 # Write your code here.
