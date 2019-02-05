@@ -11,9 +11,9 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(speaker)
-room = rand(1..7)
-room.each do |number|
-"Hello, #{speaker}! You'll be assigned to room #{number}!"
+ room = rand(1..7)
+ room.each do |number|
+  "Hello, #{speaker}! You'll be assigned to room #{number}!"
  end
 end
 
