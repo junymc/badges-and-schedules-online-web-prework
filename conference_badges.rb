@@ -12,8 +12,8 @@ end
 
 def assign_rooms(speaker)
 room = rand(1..7)
-room_number = room.each
-"Hello, #{speaker}! You'll be assigned to room #{room_number}!"
+room.each do |number|
+"Hello, #{speaker}! You'll be assigned to room #{number}!"
 end
 
 def printer
