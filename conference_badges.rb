@@ -20,6 +20,7 @@ end
 
 def printer(list)
  batch_badge_creator(list)
+ binding.pry
  assign_rooms(list)
 end
 # Write your code here.
